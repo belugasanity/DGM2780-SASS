@@ -1,0 +1,41 @@
+// Home Page SCSS
+#home-page {
+	clear:both;
+	height: auto;
+	p{
+		padding: 0 0.6em;
+	}
+	h4 {
+	@extend p;
+	color: $biker-yellow;
+	font-size: 1.4em;
+	font-family: $fonts-headers;
+	}
+	.thumb-container{
+		background: url("../img/bg2.png");
+		padding: 0.1em 0.3em;
+		height: 350px;
+		.thumbs{
+			float: left;
+			margin-left: (120px/5);
+			img{
+				@include border-radius(10px);
+			}
+		}
+	}
+	.half{
+		width: 50%;
+		float: left;
+	}
+	.half2{
+		@extend .half;
+	}
+
+}// #home-page
+.row{
+	background: url("../img/hero-banner.jpeg");
+	height: 240px;
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}

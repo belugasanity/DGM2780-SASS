@@ -1,0 +1,17 @@
+// Variables
+
+$biker-red: #cF0020;
+$biker-green: #6e9100;
+$biker-yellow: #e5a800;
+$biker-blue: #095366;
+$white:#fff;
+$black: #000;
+
+@mixin border-radius($radius){
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+	border: solid 2px transparent;
+}
+$fonts-headers: 'Montserrat', arial, sans-serif;
+$fonts-para: 'Raleway', arial, sans-serif;

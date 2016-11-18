@@ -1,0 +1,14 @@
+body{
+	background-image: url("../img/bg.png");
+	background-repeat: repeat;
+	padding:0;
+	margin: 0;
+	font-family: $fonts-para;
+}
+.wrapper{
+	width: 940px;
+	margin:0 auto;
+	background: $white;
+	top: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans|Raleway');

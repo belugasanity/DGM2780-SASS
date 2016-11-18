@@ -1,0 +1,28 @@
+// Header SCSS
+
+#header {
+	border-bottom: solid 5px $biker-blue;
+	width: 100%;
+	height: 100px;
+	h3{
+		font-size: 2em;
+		float: left;
+		padding-left: 0.3em;
+		color: $biker-blue;
+		font-family: $fonts-headers;
+	}
+    nav {
+    	float: right;
+    	padding-top: 2.9em;
+    	li {
+    		float: left;
+    		list-style: none;
+    		margin-right: 1em;
+    		text-transform: uppercase;
+    		font-size: 0.8em;
+    		a{
+    			color: $biker-red;
+    		}// end a
+    	}	//end li
+	}// end nav
+}// #header

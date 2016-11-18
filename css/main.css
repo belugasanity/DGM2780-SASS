@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans|Raleway");
+/* line 1, ../scss/pages/_all-pages.scss */
+body {
+  background-image: url("../img/bg.png");
+  background-repeat: repeat;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", arial, sans-serif; }
+
+/* line 8, ../scss/pages/_all-pages.scss */
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+  background: #fff;
+  top: 0; }
+
+/* line 3, ../scss/partials/_header.scss */
+#header {
+  border-bottom: solid 5px #095366;
+  width: 100%;
+  height: 100px; }
+  /* line 7, ../scss/partials/_header.scss */
+  #header h3 {
+    font-size: 2em;
+    float: left;
+    padding-left: 0.3em;
+    color: #095366;
+    font-family: "Montserrat", arial, sans-serif; }
+  /* line 14, ../scss/partials/_header.scss */
+  #header nav {
+    float: right;
+    padding-top: 2.9em; }
+    /* line 17, ../scss/partials/_header.scss */
+    #header nav li {
+      float: left;
+      list-style: none;
+      margin-right: 1em;
+      text-transform: uppercase;
+      font-size: 0.8em; }
+      /* line 23, ../scss/partials/_header.scss */
+      #header nav li a {
+        color: #cF0020; }
+
+/* line 1, ../scss/partials/_footer.scss */
+#footer {
+  background: #6e9100;
+  clear: both;
+  height: 15px;
+  padding: 1em 32%; }
+  /* line 6, ../scss/partials/_footer.scss */
+  #footer div {
+    margin: 0 auto;
+    text-align: center; }
+    /* line 9, ../scss/partials/_footer.scss */
+    #footer div li {
+      float: left;
+      list-style: none;
+      margin-left: 20px;
+      font-size: 0.8em; }
+      /* line 14, ../scss/partials/_footer.scss */
+      #footer div li a {
+        color: #fff;
+        text-decoration: none; }
+
+/* line 2, ../scss/pages/_home-page.scss */
+#home-page {
+  clear: both;
+  height: auto; }
+  /* line 5, ../scss/pages/_home-page.scss */
+  #home-page p, #home-page h4 {
+    padding: 0 0.6em; }
+  /* line 8, ../scss/pages/_home-page.scss */
+  #home-page h4 {
+    color: #e5a800;
+    font-size: 1.4em;
+    font-family: "Montserrat", arial, sans-serif; }
+  /* line 14, ../scss/pages/_home-page.scss */
+  #home-page .thumb-container {
+    background: url("../img/bg2.png");
+    padding: 0.1em 0.3em;
+    height: 350px; }
+    /* line 18, ../scss/pages/_home-page.scss */
+    #home-page .thumb-container .thumbs {
+      float: left;
+      margin-left: 24px; }
+      /* line 21, ../scss/pages/_home-page.scss */
+      #home-page .thumb-container .thumbs img {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        border: solid 2px transparent; }
+  /* line 26, ../scss/pages/_home-page.scss */
+  #home-page .half, #home-page .half2 {
+    width: 50%;
+    float: left; }
+
+/* line 35, ../scss/pages/_home-page.scss */
+.row {
+  background: url("../img/hero-banner.jpeg");
+  height: 240px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+/*# sourceMappingURL=main.css.map */
